@@ -266,3 +266,12 @@ footer { border-top: 1px solid var(--line); padding-block: 28px; margin-top: cla
 .step h3 .status { margin-left: 10px; vertical-align: middle; font-family: var(--mono); }
 .veille-side .tags { display: flex; flex-wrap: wrap; gap: 8px; }
 @media (min-width: 821px) { .project { grid-template-columns: 160px minmax(0, 1.1fr) minmax(0, 1fr); } }
+
+/* Paragraphe d'accueil : une phrase par ligne */
+.hero .lead { max-width: 52em; }
+.lead-line { display: block; }
+.lead-line + .lead-line { margin-top: 6px; }
+@media (min-width: 900px) { .lead-line:first-child { white-space: nowrap; } }
+
+/* Page pas encore remplie */
+.soon { margin: 0; color: var(--muted); font-family: var(--mono); font-size: 14px; }
