@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Compétences · Vankevin Roeun</title>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,500&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="top">
+  <div class="wrap nav-inner">
+    <a class="logo" href="index.html">Vankevin<span>.</span></a>
+    <button class="menu-btn" id="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="competences.html" class="active" aria-current="page">Compétences</a></li>
+      <li><a href="formation.html">Formation</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="experiences.html">Expériences</a></li>
+      <li><a href="veille.html">Veille</a></li>
+      <li class="nav-mobile-only"><a href="contact.html">Contact</a></li>
+    </ul>
+    <a class="btn-outline-sm nav-cta" href="contact.html">Me contacter</a>
+  </div>
+</header>
+
+<main>
+  <section class="block first" id="competences">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">Référentiel BTS SIO</div>
+          <h1>Mes <em>compétences</em></h1>
+        </div>
+        <p>Les compétences techniques acquises en cours, en TP et pendant mon stage chez Atos/Eviden.</p>
+      </div>
+      <dl class="stack stack-first">
+        <dt>Réseau</dt>
+        <dd><span class="chip">Adressage IP</span><span class="chip">VLAN</span><span class="chip">Switchs</span><span class="chip">Routeurs</span><span class="chip">DNS</span><span class="chip">Diagnostic (ping)</span></dd>
+        <dt>Systèmes</dt>
+        <dd><span class="chip">Windows Server</span><span class="chip">Active Directory</span><span class="chip">DNS</span><span class="chip">DHCP</span><span class="chip">Linux</span><span class="chip">Postes Windows</span></dd>
+        <dt>Sécurité</dt>
+        <dd><span class="chip">Pare-feu Stormshield</span><span class="chip">Reverse proxy Nginx</span></dd>
+        <dt>Conteneurs</dt>
+        <dd><span class="chip">Docker</span><span class="chip">Docker Compose</span><span class="chip">Volumes</span><span class="chip">Réseaux de conteneurs</span></dd>
+        <dt>Supervision</dt>
+        <dd><span class="chip">Zabbix</span></dd>
+      </dl>
+
+      <div class="blocs">
+        <article class="bloc">
+          <span class="code">BLOC 1</span>
+          <h3>Support et mise à disposition de services informatiques</h3>
+          <ul>
+            <li>Installer et configurer des postes Windows</li>
+            <li>Répondre aux incidents et aux demandes d'assistance</li>
+            <li>Travailler en mode projet</li>
+            <li>Mettre à disposition un service informatique</li>
+          </ul>
+        </article>
+        <article class="bloc">
+          <span class="code">BLOC 2 · SISR</span>
+          <h3>Administration des systèmes et des réseaux</h3>
+          <ul>
+            <li>Configurer switchs, routeurs et VLAN</li>
+            <li>Administrer Windows Server : Active Directory, DNS, DHCP</li>
+            <li>Gérer des services Linux</li>
+            <li>Déployer des services conteneurisés avec Docker</li>
+            <li>Superviser l'infrastructure avec Zabbix</li>
+          </ul>
+        </article>
+        <article class="bloc">
+          <span class="code">BLOC 3</span>
+          <h3>Cybersécurité des services informatiques</h3>
+          <ul>
+            <li>Filtrer les flux avec un pare-feu Stormshield</li>
+            <li>Protéger les services web derrière un reverse proxy Nginx</li>
+            <li>Garantir la disponibilité des services</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Vankevin Roeun — Portfolio BTS SIO SISR</span>
+    <span class="mono">Lycée Louis Armand · Nogent-sur-Marne</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
